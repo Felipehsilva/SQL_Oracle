@@ -25,11 +25,11 @@ Below are the 9 strategic business questions I solved using advanced SQL:
 ## 📂 Database Structure
 The architecture follows a strictly relational model to ensure data integrity.
 
-[Image of a relational database schema diagram showing tables for Product, PC, Laptop, Printer, and Storage connected by foreign keys]
 
-* [cite_start]**Product Table**: The master table for brands and categories [cite: 81-84].
-* [cite_start]**Hardware Tables (PC, Laptop, Printer)**: Specialized tables containing technical specifications linked by foreign keys [cite: 85-115].
-* [cite_start]**Storage Table**: A logistics log tracking product movement and serial numbers [cite: 116-121].
+
+* **Product Table**: The master table for brands and categories.
+* **Hardware Tables (PC, Laptop, Printer)**: Specialized tables containing technical specifications linked by foreign keys.
+* **Storage Table**: A logistics log tracking product movement and serial numbers.
 
 ---
 
@@ -41,6 +41,6 @@ The architecture follows a strictly relational model to ensure data integrity.
 ---
 
 ## 🚀 How to Run
-1.  [cite_start]**Execute Schema**: Run the script in `/scripts/01_ddl_creation.sql` to build the tables and constraints [cite: 81-121].
-2.  [cite_start]**Load Data**: Run `/scripts/02_dml_population.sql` to populate the environment with validated hardware records [cite: 122-199].
+1.  **Execute Schema**: Run the script in `/scripts/01_ddl_creation.sql` to build the tables and constraints.
+2.  **Load Data**: Run `/scripts/02_dml_population.sql` to populate the environment with validated hardware records.
 3.  **Run Analytics**: Use `/scripts/03_business_queries.sql` to execute the business intelligence reports.
