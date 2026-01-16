@@ -43,6 +43,5 @@ The architecture follows a strictly relational model to ensure data integrity.
 ---
 
 ## 🚀 How to Run
-1.  **Execute Schema**: Run the script in `/scripts/01_ddl_creation.sql` to build the tables and constraints.
-2.  **Load Data**: Run `/scripts/02_dml_population.sql` to populate the environment with validated hardware records.
-3.  **Run Analytics**: Use `/scripts/03_business_queries.sql` to execute the business intelligence reports.
+1.  **Execute Schema and Load data**: Run the script in `DDL.sql` to build the tables and constraints and to populate the environment with validated hardware records.
+3.  **Run Analytics**: Use `resolution-script.sql` to execute the business intelligence reports.
