@@ -1,4 +1,6 @@
 # Data Engineering Case Study: Full-Stack Database Architecture & Intelligence for "Nexus Hardware Group" 💻📊
+👉 **Full project explanation available on my blog:**  
+🔗 [Click here](https://dataineverywhere.ct.ws/projects/hardware-retail-data-engineering-using-sql/) 
 
 ## 📖 Executive Summary
 **Nexus Hardware Group** is a high-performance computing retailer that required a scalable and reliable system to manage its global inventory. In this project, I architected and implemented the entire database infrastructure from the ground up using a professional-grade relational environment. 
